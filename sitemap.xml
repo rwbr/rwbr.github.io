@@ -19,14 +19,31 @@
   
   <url>
     <loc>https://rwbr.github.io/categories/</loc>
+    <lastmod>2019-05-21T21:29:22+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/series/</loc>
+    <loc>https://rwbr.github.io/tags/docker/</loc>
+    <lastmod>2019-05-21T21:29:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rwbr.github.io/post/how-to-remove-all-docker-images-at-once/</loc>
+    <lastmod>2019-05-21T21:29:22+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://rwbr.github.io/tags/</loc>
+    <lastmod>2019-05-21T21:29:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rwbr.github.io/categories/tools/</loc>
+    <lastmod>2019-05-21T21:29:22+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rwbr.github.io/series/</loc>
   </url>
   
 </urlset>
