@@ -6,10 +6,23 @@
 		<description>Recent content in Posts on rwbr.github.io</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
-		<lastBuildDate>Mon, 24 Aug 2020 14:47:25 +0200</lastBuildDate>
+		<lastBuildDate>Tue, 25 Aug 2020 19:29:21 +0200</lastBuildDate>
 		
 		<atom:link href="https://rwbr.github.io/post/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>The easiest way to install NodeJS on a Raspberry Pi</title>
+			<link>https://rwbr.github.io/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</link>
+			<pubDate>Tue, 25 Aug 2020 19:29:21 +0200</pubDate>
+			
+			<guid>https://rwbr.github.io/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</guid>
+			<description>
+				
+				Step 1: Installation of nvm Use the installation script to install the Node Version Manager:
+curl -o- https://raw.github...
+				
+			</description>
+		</item>
 		<item>
 			<title>&#39;fatal: refusing to merge unrelated histories&#39; in git</title>
 			<link>https://rwbr.github.io/post/fatal-refusing-to-merge-unrelated-histories-in-git/</link>

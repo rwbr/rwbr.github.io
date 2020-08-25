@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	
+	<meta name="generator" content="Hugo 0.74.2" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="git,flutter,programming,ios"><meta name="description" content=""><meta property="og:title" content="The easiest way to install NodeJS on a Raspberry Pi" />
+<meta property="og:description" content="Step 1: Installation of nvm Use the installation script to install the Node Version Manager:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash Then the profile script must be executed again (or the terminal restarted):
+source ~/.bashrc Check the nvm version:
+nvm --version 0.35.3 Installation of NodeJS To install a specific NodeJS version using nvm, use the command:
+nvm install &lt;node-version&gt; To set this version as the default version of NodeJS on the system use the command:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rwbr.github.io/post/the-easiest-way-to-install-node-on-a-raaspberrypi/" />
+<meta property="article:published_time" content="2020-08-25T19:29:21+02:00" />
+<meta property="article:modified_time" content="2020-08-25T19:29:21+02:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="The easiest way to install NodeJS on a Raspberry Pi"/>
+<meta name="twitter:description" content="Step 1: Installation of nvm Use the installation script to install the Node Version Manager:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash Then the profile script must be executed again (or the terminal restarted):
+source ~/.bashrc Check the nvm version:
+nvm --version 0.35.3 Installation of NodeJS To install a specific NodeJS version using nvm, use the command:
+nvm install &lt;node-version&gt; To set this version as the default version of NodeJS on the system use the command:"/>
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://rwbr.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://rwbr.github.io/css/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://rwbr.github.io/css/all.css" />
+	<link rel="stylesheet" href="https://rwbr.github.io/css/katex.min.css" crossorigin="anonymous">
+	<script defer src="https://rwbr.github.io/js/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+	<script defer src="https://rwbr.github.io/js/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><title>The easiest way to install NodeJS on a Raspberry Pi | What I learned today</title></head>
+<body><header>
+	
+	<div id="avatar">
+		<a href="https://rwbr.github.io/">
+			<img src="/img/rw-logo.png" alt="What I learned today">
+		</a>
+	</div>
+	
+	<div id="titletext"><h2 id="title"><a href="https://rwbr.github.io/">What I learned today</a></h2></div>
+	<div id="title-description"><p id="subtitle">Personal blog about programming and all that stuff</p><div id=social>
+			<nav>
+				<ul><li><a href="https://github.com/rwbr"><i title="Github" class="icons fab fa-github"></i></a></li><li><a href="/index.xml"><i title="RSS" class="icons fas fa-rss"></i></a></li></ul>
+			</nav>
+		</div>
+	</div>
+	
+	<div id="mainmenu">
+		<nav>
+			<ul>
+				
+				<li><a href="/">Home</a></li>
+				
+				<li><a href="/post">All Posts</a></li>
+				
+				<li><a href="/about">About</a></li>
+				
+				<li><a href="/tags">Tags</a></li>
+				
+				<li><a href="/categories">Categories</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	
+</header>
+<main><div class="post">
+	
+	<div class="author">
+	
+	</div>
+	<div class="post-header">
+	
+		<div class="meta">
+			
+			<div class="date">
+				<span class="day">25</span>
+				<span class="rest">Aug 2020</span>
+			</div>
+			
+		</div>
+		
+		<div class="matter">
+			<h1 class="title">The easiest way to install NodeJS on a Raspberry Pi</h1>
+		</div>
+	</div>
+	<div class="markdown">
+		<p><img src="/img/install-node.jpeg" alt="Install NodeJS on a RaspberryPi"></p>
+<h2 id="step-1-installation-of-nvm">Step 1: Installation of nvm</h2>
+<p>Use the installation script to install the Node Version Manager:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+</code></pre></div><p>Then the profile script must be executed again (or the terminal restarted):</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#007020">source</span> ~/.bashrc
+</code></pre></div><p>Check the nvm version:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">nvm --version
+0.35.3
+</code></pre></div><h2 id="installation-of-nodejs">Installation of NodeJS</h2>
+<p>To install a specific NodeJS version using nvm, use the command:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">nvm install &lt;node-version&gt;
+</code></pre></div><p>To set this version as the default version of NodeJS on the system use the command:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">nvm use &lt;node-version&gt;
+</code></pre></div><p>Check the successful installation of the NodeJS version:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">node -v
+</code></pre></div><p>Upgrade from an earlier version:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">nvm install &lt;node-version&gt; —reinstall-packages-from<span style="color:#333">=</span>&lt;old-node-version&gt;
+</code></pre></div><p>Installing NodeJS this way will also install <code>npm</code>.</p>
+
+	</div>
+	
+	
+	
+	
+	
+		
+	
+		
+	
+		
+		
+	</div></div>
+
+  </main>
+
+
+
+
+
+</body>
+</html>
