@@ -25,7 +25,7 @@ nvm --version
 0.35.3
 ```
 
-## Installation of NodeJS
+## Step 2: Installation of NodeJS
 
 To install a specific NodeJS version using nvm, use the command:
 
