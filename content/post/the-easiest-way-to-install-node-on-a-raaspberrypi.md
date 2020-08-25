@@ -1,7 +1,6 @@
 ---
 title: "The easiest way to install NodeJS on a Raspberry Pi"
 date: 2020-08-25T19:29:21+02:00
-draft: true
 ---
 
 ![Install NodeJS on a RaspberryPi](/img/install-node.jpeg)
@@ -10,7 +9,7 @@ draft: true
 Use the installation script to install the Node Version Manager:
 
 ```bash
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ```
 
 Then the profile script must be executed again (or the terminal restarted):
@@ -23,7 +22,7 @@ Check the nvm version:
 
 ```bash
 nvm --version
-0.33.11
+0.35.3
 ```
 
 ## Installation of NodeJS
