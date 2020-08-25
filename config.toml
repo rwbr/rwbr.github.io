@@ -3,15 +3,16 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 author = "Ralf Weinbrecher"
 title = "What I learned today"
-theme = "hugo-vitae"
+theme = "beautifulhugo"
 paginate = 5
 enableRobotsTXT = true
 
-opyright = "Copyright © 2020 Ralf Weinbrecher"
+copyright = "Copyright © 2020 Ralf Weinbrecher"
 
 pygmentsstyle = "colorful"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
 
 [taxonomies]
 	tag = "tags"
@@ -19,6 +20,11 @@ pygmentscodefencesguesssyntax = true
 	series = "series"
 
 [params]
+	logo = "img/rw-logo.png"
+	wordCount = true
+	useHLJS = true
+	showRelatedPosts = true
+
 	# Use homepage.md instead of a list of posts
 	homepage = false
 

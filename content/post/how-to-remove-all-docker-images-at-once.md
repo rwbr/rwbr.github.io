@@ -1,9 +1,12 @@
 ---
 title: "How to remove all Docker images at once"
 date: 2019-05-21T21:29:22+02:00
-categories: "tools"
-tags: "docker"
+tags: [docker]
 ---
+
+Somtimes it is necessary to remove all Docker images or containers on your machine. Here is how it goes. It's pretty easy.
+
+ <!--more-->
 
 ![Container ship](/img/container-ship.jpeg)
 

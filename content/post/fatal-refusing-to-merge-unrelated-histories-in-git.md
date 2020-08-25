@@ -1,9 +1,12 @@
 ---
 title: "'fatal: refusing to merge unrelated histories' in git"
 date: 2020-08-24T14:47:25+02:00
+tags: [git]
 ---
 
 This nasty error in git happens, when you try to merge wo repositories, that are not aware of the existence of the other repository. This means, these repositories have a mismatching commit history. 
+
+<!--more-->
 
 ![Unrelated histories](/img/fatal-git-unrelated-history.png)
 

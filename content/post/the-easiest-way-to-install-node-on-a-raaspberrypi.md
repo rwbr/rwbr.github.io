@@ -1,7 +1,12 @@
 ---
 title: "The easiest way to install NodeJS on a Raspberry Pi"
 date: 2020-08-25T19:29:21+02:00
+tags: [nodejs, raspberrypi]
 ---
+
+The installation of NodeJs on a RaspberryPi can be accomplished on various ways. This article shows the easiest way to do it.
+
+<!--more-->
 
 ![Install NodeJS on a RaspberryPi](/img/install-node.jpeg)
 
