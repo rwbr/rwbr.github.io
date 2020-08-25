@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on What I learned today</title>
+    <link>https://rwbr.github.io/tags/git/</link>
+    <description>Recent content in git on What I learned today</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2020 Ralf Weinbrecher</copyright>
+    <lastBuildDate>Mon, 24 Aug 2020 14:47:25 +0200</lastBuildDate>
+    
+	<atom:link href="https://rwbr.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>&#39;fatal: refusing to merge unrelated histories&#39; in git</title>
+      <link>https://rwbr.github.io/post/fatal-refusing-to-merge-unrelated-histories-in-git/</link>
+      <pubDate>Mon, 24 Aug 2020 14:47:25 +0200</pubDate>
+      
+      <guid>https://rwbr.github.io/post/fatal-refusing-to-merge-unrelated-histories-in-git/</guid>
+      <description>&lt;p&gt;This nasty error in git happens, when you try to merge wo repositories, that are not aware of the existence of the other repository. This means, these repositories have a mismatching commit history.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

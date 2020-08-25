@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://rwbr.github.io/tags/nodejs/</loc>
+    <lastmod>2020-08-25T19:29:21+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rwbr.github.io/post/</loc>
+    <lastmod>2020-08-25T19:29:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rwbr.github.io/tags/raspberrypi/</loc>
+    <lastmod>2020-08-25T19:29:21+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rwbr.github.io/tags/</loc>
     <lastmod>2020-08-25T19:29:21+02:00</lastmod>
   </url>
   
@@ -23,8 +38,8 @@
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/categories/</loc>
-    <lastmod>2019-05-21T21:29:22+02:00</lastmod>
+    <loc>https://rwbr.github.io/tags/git/</loc>
+    <lastmod>2020-08-24T14:47:25+02:00</lastmod>
   </url>
   
   <url>
@@ -38,13 +53,7 @@
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/tags/</loc>
-    <lastmod>2019-05-21T21:29:22+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rwbr.github.io/categories/tools/</loc>
-    <lastmod>2019-05-21T21:29:22+02:00</lastmod>
+    <loc>https://rwbr.github.io/categories/</loc>
   </url>
   
   <url>
