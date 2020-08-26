@@ -1,6 +1,6 @@
 ---
 title: "How to configure multiple wifi networks on a RaspberryPi Zero W"
-date: 2020-08-26T21:17:22+02:00
+date: 2020-08-26T18:36:05+02:00
 tags: [raspberrypi]
 ---
 
