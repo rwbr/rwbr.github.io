@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2020 Ralf Weinbrecher</copyright>
-    <lastBuildDate>Tue, 25 Aug 2020 19:29:21 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2020 18:36:05 +0200</lastBuildDate>
     
 	<atom:link href="https://rwbr.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to configure multiple wifi networks on a RaspberryPi Zero W</title>
+      <link>https://rwbr.github.io/post/multiple-wifi-networks-on-raspberrypi/</link>
+      <pubDate>Wed, 26 Aug 2020 18:36:05 +0200</pubDate>
+      
+      <guid>https://rwbr.github.io/post/multiple-wifi-networks-on-raspberrypi/</guid>
+      <description>&lt;p&gt;If you install &lt;a href=&#34;https://www.raspberrypi.org/downloads/raspberry-pi-os/&#34;&gt;Raspian&lt;/a&gt; on a RaspberryPi Zero W one essential step is to setup Wifi. You save a configuration file called &lt;strong&gt;wpa_supplicant.conf&lt;/strong&gt; on the &lt;code&gt;boot&lt;/code&gt;-Partition. But how do you configure multiple networks in one step?&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>The easiest way to install NodeJS on a Raspberry Pi</title>
