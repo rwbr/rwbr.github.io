@@ -8,6 +8,8 @@ If you install [Raspian](https://www.raspberrypi.org/downloads/raspberry-pi-os/)
 
 <!--more-->
 
+![](/img/sunset.png)
+
 If you wish to configure multiple Wifi networks, just add another ```network``` section to your **wpa_supplicant.conf** file. Here's an example:
 
 ```
