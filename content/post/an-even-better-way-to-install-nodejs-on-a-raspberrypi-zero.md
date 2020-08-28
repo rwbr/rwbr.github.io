@@ -16,3 +16,13 @@ The RaspberryPi Zero W features an ARM11 CPU, which is fairly slow, compared to 
 I recently [described](/post/the-easiest-way-to-install-node-on-a-raaspberrypi) how to set up NodeJS on a RaspebrryPi using [nvm](https://github.com/nvm-sh/nvm). The disadvantage of that method is, that ist takes a huge amount of time when run on a RaspberryPi Zero.
 
 ## Here is a better solution
+
+### Find out, what type of RaspberryPi you own
+
+To determine the type of RaspberryPi you own, you need an ssh connection to the device. Open the SSH console to run the following command:
+
+```bash
+uname -a
+```
+
+With this command I can determine the CPU architecture. This way I find out for which architecture NodeJS must be built.
