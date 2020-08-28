@@ -1,7 +1,6 @@
 ---
 title: "An even better way to install NodeJS on a RaspberryPi Zero W"
 date: 2020-08-28T14:03:06+02:00
-draft: true
 tags: [nodejs, raspberrypi]
 ---
 
@@ -25,4 +24,51 @@ To determine the type of RaspberryPi you own, you need an ssh connection to the 
 uname -a
 ```
 
-With this command I can determine the CPU architecture. This way I find out for which architecture NodeJS must be built.
+With this command I can determine the CPU architecture. This way I find out for which architecture NodeJS must be built. Look for a string in the results that starts with **armv**. Example:
+
+```
+Linux raspberrypi 5.4.51+ #1333 Mon Aug 10 16:38:02 BST 2020 armv6l GNU/Linux
+```
+
+Here I executed this command on a RaspberryPi Zero W. The message tells me that this device's CPU arcitecture is **armv61**. In this example I need to download NodeJS built for armv6l. (For RaspberryPi 3 or 4 you'll get armv7l as the result).
+
+### Download and install NodeJS
+
+The full archive of all releases of NodeJS can be found [here](https://nodejs.org/dist/). There you can look for the appropriate package for your machine. For the RaspberryPi Zero (remember: **armv6l**) the latest release of NodeJS is v11.15.0 (at the time of writing):
+
+![NodeJS for armv61](/img/nodejs11.15.png)
+
+From your host computer establish a remote connection over ssh, then download the archive:
+
+```bash
+wget https://nodejs.org/dist/latest-v11.x/node-v11.15.0-linux-armv6l.tar.gz
+```
+
+Next extract the files:
+
+```bash
+tar -xzf node-v1.15.0-linux-armv6l.tar.gz
+```
+
+Copy to **/usr/local**:
+
+```bash
+sudo cp -R node-v11.15.0-linux-armv6l/* /usr/local/
+```
+
+### Check your installation
+
+To find out if everything went well, check the version of NodeJS:
+
+```bash
+node --version
+v11.15.0
+```
+
+Success! Now clean up your home folder. You don't need these files any longer. 
+
+```bash
+rm -rf node-v*
+```
+
+Now you have the latest version of NodeJS running on your device.
