@@ -7,10 +7,22 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>Copyright © 2020 Ralf Weinbrecher</copyright>
-		<lastBuildDate>Wed, 26 Aug 2020 18:36:05 +0200</lastBuildDate>
+		<lastBuildDate>Fri, 28 Aug 2020 14:03:06 +0200</lastBuildDate>
 		
 		<atom:link href="https://rwbr.github.io/tags/raspberrypi/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>An even better way to install NodeJS on a RaspberryPi Zero W</title>
+			<link>https://rwbr.github.io/post/an-even-better-way-to-install-nodejs-on-a-raspberrypi-zero/</link>
+			<pubDate>Fri, 28 Aug 2020 14:03:06 +0200</pubDate>
+			
+			<guid>https://rwbr.github.io/post/an-even-better-way-to-install-nodejs-on-a-raspberrypi-zero/</guid>
+			<description>
+				
+				Following the guide in my last post you can safely install NodeJS on a RaspberryPi. If you try this on a RaspberryPi Zer...
+				
+			</description>
+		</item>
 		<item>
 			<title>How to configure multiple wifi networks on a RaspberryPi Zero W</title>
 			<link>https://rwbr.github.io/post/multiple-wifi-networks-on-raspberrypi/</link>

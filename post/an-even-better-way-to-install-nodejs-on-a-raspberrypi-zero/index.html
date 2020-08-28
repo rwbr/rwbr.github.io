@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	
+	<meta name="generator" content="Hugo 0.74.2" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="nodejs,raspberrypi"><meta name="description" content=""><meta property="og:title" content="An even better way to install NodeJS on a RaspberryPi Zero W" />
+<meta property="og:description" content="Following the guide in my last post you can safely install NodeJS on a RaspberryPi. If you try this on a RaspberryPi Zero W, this will take a very long time, because it builds NodeJS from source and this device has a very limited CPU performance. Here is a better and faster solution." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rwbr.github.io/post/an-even-better-way-to-install-nodejs-on-a-raspberrypi-zero/" />
+<meta property="article:published_time" content="2020-08-28T14:03:06+02:00" />
+<meta property="article:modified_time" content="2020-08-28T14:03:06+02:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="An even better way to install NodeJS on a RaspberryPi Zero W"/>
+<meta name="twitter:description" content="Following the guide in my last post you can safely install NodeJS on a RaspberryPi. If you try this on a RaspberryPi Zero W, this will take a very long time, because it builds NodeJS from source and this device has a very limited CPU performance. Here is a better and faster solution."/>
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://rwbr.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://rwbr.github.io/css/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://rwbr.github.io/css/all.css" />
+	<link rel="stylesheet" href="https://rwbr.github.io/css/katex.min.css" crossorigin="anonymous">
+	<script defer src="https://rwbr.github.io/js/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+	<script defer src="https://rwbr.github.io/js/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><title>An even better way to install NodeJS on a RaspberryPi Zero W | What I learned today</title></head>
+<body><header>
+	
+	<div id="avatar">
+		<a href="https://rwbr.github.io/">
+			<img src="/img/rw-logo.png" alt="What I learned today">
+		</a>
+	</div>
+	
+	<div id="titletext"><h2 id="title"><a href="https://rwbr.github.io/">What I learned today</a></h2></div>
+	<div id="title-description"><p id="subtitle">Personal blog about programming and all that stuff</p><div id=social>
+			<nav>
+				<ul><li><a href="https://github.com/rwbr"><i title="Github" class="icons fab fa-github"></i></a></li><li><a href="/index.xml"><i title="RSS" class="icons fas fa-rss"></i></a></li></ul>
+			</nav>
+		</div>
+	</div>
+	
+	<div id="mainmenu">
+		<nav>
+			<ul>
+				
+				<li><a href="/">Home</a></li>
+				
+				<li><a href="/post">All Posts</a></li>
+				
+				<li><a href="/about">About</a></li>
+				
+				<li><a href="/tags">Tags</a></li>
+				
+				<li><a href="/categories">Categories</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	
+</header>
+<main><div class="post">
+	
+	<div class="author">
+	
+	</div>
+	<div class="post-header">
+	
+		<div class="meta">
+			
+			<div class="date">
+				<span class="day">28</span>
+				<span class="rest">Aug 2020</span>
+			</div>
+			
+		</div>
+		
+		<div class="matter">
+			<h1 class="title">An even better way to install NodeJS on a RaspberryPi Zero W</h1>
+		</div>
+	</div>
+	<div class="markdown">
+		<p>Following the guide in my <a href="/post/the-easiest-way-to-install-node-on-a-raaspberrypi">last post</a> you can safely install NodeJS on a RaspberryPi. If you try this on a RaspberryPi Zero W, this will take a very long time, because it builds NodeJS from source and this device has a very limited CPU performance. Here is a better and faster solution.</p>
+<p><img src="/img/bulbs.png" alt=""></p>
+<p>The RaspberryPi Zero W features an ARM11 CPU, which is fairly slow, compared to the RaspberryPi 3B+ or RaspberryPi 4. This makes the device suitable for application, where the focus is on power consumption. But running CPU intensive tasks on the Pi Zero is not so much fun.</p>
+<p>I recently <a href="/post/the-easiest-way-to-install-node-on-a-raaspberrypi">described</a> how to set up NodeJS on a RaspebrryPi using <a href="https://github.com/nvm-sh/nvm">nvm</a>. The disadvantage of that method is, that ist takes a huge amount of time when run on a RaspberryPi Zero.</p>
+<h2 id="here-is-a-better-solution">Here is a better solution</h2>
+<h3 id="find-out-what-type-of-raspberrypi-you-own">Find out, what type of RaspberryPi you own</h3>
+<p>To determine the type of RaspberryPi you own, you need an ssh connection to the device. Open the SSH console to run the following command:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">uname -a
+</code></pre></div><p>With this command I can determine the CPU architecture. This way I find out for which architecture NodeJS must be built. Look for a string in the results that starts with <strong>armv</strong>. Example:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Linux raspberrypi 5.4.51+ #1333 Mon Aug 10 16:38:02 BST 2020 armv6l GNU/Linux
+</code></pre></div><p>Here I executed this command on a RaspberryPi Zero W. The message tells me that this device&rsquo;s CPU arcitecture is <strong>armv61</strong>. In this example I need to download NodeJS built for armv6l. (For RaspberryPi 3 or 4 you&rsquo;ll get armv7l as the result).</p>
+<h3 id="download-and-install-nodejs">Download and install NodeJS</h3>
+<p>The full archive of all releases of NodeJS can be found <a href="https://nodejs.org/dist/">here</a>. There you can look for the appropriate package for your machine. For the RaspberryPi Zero (remember: <strong>armv6l</strong>) the latest release of NodeJS is v11.15.0 (at the time of writing):</p>
+<p><img src="/img/nodejs11.15.png" alt="NodeJS for armv61"></p>
+<p>From your host computer establish a remote connection over ssh, then download the archive:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wget https://nodejs.org/dist/latest-v11.x/node-v11.15.0-linux-armv6l.tar.gz
+</code></pre></div><p>Next extract the files:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tar -xzf node-v1.15.0-linux-armv6l.tar.gz
+</code></pre></div><p>Copy to <strong>/usr/local</strong>:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo cp -R node-v11.15.0-linux-armv6l/* /usr/local/
+</code></pre></div><h3 id="check-your-installation">Check your installation</h3>
+<p>To find out if everything went well, check the version of NodeJS:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">node --version
+v11.15.0
+</code></pre></div><p>Success! Now clean up your home folder. You don&rsquo;t need these files any longer.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">rm -rf node-v*
+</code></pre></div><p>Now you have the latest version of NodeJS running on your device.</p>
+	</div>
+	
+	
+	
+	
+	
+		
+	
+		
+	
+	
+	
+	<div class="tags">
+		<div class="taxosfloating_left">
+			<p>Tags</p>
+		</div>
+		<div class="termsfloating_right">
+			<p>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="https://rwbr.github.io/tags/nodejs/"> nodejs </a>
+			
+			
+			
+			
+			
+			
+			
+			<a href="https://rwbr.github.io/tags/raspberrypi/"> raspberrypi </a>
+			
+			
+			
+			
+			
+			
+			
+			</p>
+		</div>
+		<div class="clearit"></div>
+		
+		
+		
+		
+		
+	</div></div>
+
+  </main>
+<footer>
+	 Copyright © 2020 Ralf Weinbrecher 
+	
+	
+	
+</footer>
+
+
+</body>
+</html>
