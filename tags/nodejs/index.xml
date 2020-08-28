@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>nodejs on What I learned today</title>
-		<link>http://rwbr.github.io/tags/nodejs/</link>
+		<link>https://rwbr.github.io/tags/nodejs/</link>
 		<description>Recent content in nodejs on rwbr.github.io</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>Copyright © 2020 Ralf Weinbrecher</copyright>
 		<lastBuildDate>Tue, 25 Aug 2020 19:29:21 +0200</lastBuildDate>
 		
-		<atom:link href="http://rwbr.github.io/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://rwbr.github.io/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>The easiest way to install NodeJS on a Raspberry Pi</title>
-			<link>http://rwbr.github.io/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</link>
+			<link>https://rwbr.github.io/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</link>
 			<pubDate>Tue, 25 Aug 2020 19:29:21 +0200</pubDate>
 			
-			<guid>http://rwbr.github.io/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</guid>
+			<guid>https://rwbr.github.io/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</guid>
 			<description>
 				
 				The installation of NodeJs on a RaspberryPi can be accomplished on various ways. This article shows the easiest way to d...
