@@ -1,52 +1,88 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>What I learned today</title>
-    <link>https://rwbr.github.io/</link>
-    <description>Recent content on What I learned today</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright © 2020 Ralf Weinbrecher</copyright>
-    <lastBuildDate>Wed, 26 Aug 2020 18:36:05 +0200</lastBuildDate>
-    
-	<atom:link href="https://rwbr.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>How to configure multiple wifi networks on a RaspberryPi Zero W</title>
-      <link>https://rwbr.github.io/post/multiple-wifi-networks-on-raspberrypi/</link>
-      <pubDate>Wed, 26 Aug 2020 18:36:05 +0200</pubDate>
-      
-      <guid>https://rwbr.github.io/post/multiple-wifi-networks-on-raspberrypi/</guid>
-      <description>&lt;p&gt;If you install &lt;a href=&#34;https://www.raspberrypi.org/downloads/raspberry-pi-os/&#34;&gt;Raspian&lt;/a&gt; on a RaspberryPi Zero W one essential step is to setup Wifi. You save a configuration file called &lt;strong&gt;wpa_supplicant.conf&lt;/strong&gt; on the &lt;code&gt;boot&lt;/code&gt;-Partition. But how do you configure multiple networks in one step?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>The easiest way to install NodeJS on a Raspberry Pi</title>
-      <link>https://rwbr.github.io/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</link>
-      <pubDate>Tue, 25 Aug 2020 19:29:21 +0200</pubDate>
-      
-      <guid>https://rwbr.github.io/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</guid>
-      <description>&lt;p&gt;The installation of NodeJs on a RaspberryPi can be accomplished on various ways. This article shows the easiest way to do it.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>&#39;fatal: refusing to merge unrelated histories&#39; in git</title>
-      <link>https://rwbr.github.io/post/fatal-refusing-to-merge-unrelated-histories-in-git/</link>
-      <pubDate>Mon, 24 Aug 2020 14:47:25 +0200</pubDate>
-      
-      <guid>https://rwbr.github.io/post/fatal-refusing-to-merge-unrelated-histories-in-git/</guid>
-      <description>&lt;p&gt;This nasty error in git happens, when you try to merge wo repositories, that are not aware of the existence of the other repository. This means, these repositories have a mismatching commit history.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>How to remove all Docker images at once</title>
-      <link>https://rwbr.github.io/post/how-to-remove-all-docker-images-at-once/</link>
-      <pubDate>Tue, 21 May 2019 21:29:22 +0200</pubDate>
-      
-      <guid>https://rwbr.github.io/post/how-to-remove-all-docker-images-at-once/</guid>
-      <description>&lt;p&gt;Somtimes it is necessary to remove all Docker images or containers on your machine. Here is how it goes. It&amp;rsquo;s pretty easy.&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>What I learned today</title>
+		<link>http://example.org/</link>
+		<description>Recent content on example.org</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>Copyright © 2020 Ralf Weinbrecher</copyright>
+		<lastBuildDate>Wed, 26 Aug 2020 18:36:05 +0200</lastBuildDate>
+		
+		<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>How to configure multiple wifi networks on a RaspberryPi Zero W</title>
+			<link>http://example.org/post/multiple-wifi-networks-on-raspberrypi/</link>
+			<pubDate>Wed, 26 Aug 2020 18:36:05 +0200</pubDate>
+			
+			<guid>http://example.org/post/multiple-wifi-networks-on-raspberrypi/</guid>
+			<description>
+				
+				If you install Raspian on a RaspberryPi Zero W one essential step is to setup Wifi. You save a configuration file called...
+				
+			</description>
+		</item>
+		<item>
+			<title>The easiest way to install NodeJS on a Raspberry Pi</title>
+			<link>http://example.org/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</link>
+			<pubDate>Tue, 25 Aug 2020 19:29:21 +0200</pubDate>
+			
+			<guid>http://example.org/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</guid>
+			<description>
+				
+				The installation of NodeJs on a RaspberryPi can be accomplished on various ways. This article shows the easiest way to d...
+				
+			</description>
+		</item>
+		<item>
+			<title>&#39;fatal: refusing to merge unrelated histories&#39; in git</title>
+			<link>http://example.org/post/fatal-refusing-to-merge-unrelated-histories-in-git/</link>
+			<pubDate>Mon, 24 Aug 2020 14:47:25 +0200</pubDate>
+			
+			<guid>http://example.org/post/fatal-refusing-to-merge-unrelated-histories-in-git/</guid>
+			<description>
+				
+				This nasty error in git happens, when you try to merge wo repositories, that are not aware of the existence of the other...
+				
+			</description>
+		</item>
+		<item>
+			<title></title>
+			<link>http://example.org/archives/</link>
+			<pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+			
+			<guid>http://example.org/archives/</guid>
+			<description>
+				
+				
+				
+			</description>
+		</item>
+		<item>
+			<title>How to remove all Docker images at once</title>
+			<link>http://example.org/post/how-to-remove-all-docker-images-at-once/</link>
+			<pubDate>Tue, 21 May 2019 21:29:22 +0200</pubDate>
+			
+			<guid>http://example.org/post/how-to-remove-all-docker-images-at-once/</guid>
+			<description>
+				
+				Somtimes it is necessary to remove all Docker images or containers on your machine. Here is how it goes. It’s pret...
+				
+			</description>
+		</item>
+		<item>
+			<title>About</title>
+			<link>http://example.org/about/</link>
+			<pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+			
+			<guid>http://example.org/about/</guid>
+			<description>
+				
+				Hugo, the world’s fastest framework for building websites
+				
+			</description>
+		</item>
+		
+	</channel>
 </rss>
