@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on What I learned today</title>
-		<link>http://example.org/post/</link>
-		<description>Recent content in Posts on example.org</description>
+		<link>http://rwbr.github.io/post/</link>
+		<description>Recent content in Posts on rwbr.github.io</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>Copyright © 2020 Ralf Weinbrecher</copyright>
 		<lastBuildDate>Wed, 26 Aug 2020 18:36:05 +0200</lastBuildDate>
 		
-		<atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://rwbr.github.io/post/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>How to configure multiple wifi networks on a RaspberryPi Zero W</title>
-			<link>http://example.org/post/multiple-wifi-networks-on-raspberrypi/</link>
+			<link>http://rwbr.github.io/post/multiple-wifi-networks-on-raspberrypi/</link>
 			<pubDate>Wed, 26 Aug 2020 18:36:05 +0200</pubDate>
 			
-			<guid>http://example.org/post/multiple-wifi-networks-on-raspberrypi/</guid>
+			<guid>http://rwbr.github.io/post/multiple-wifi-networks-on-raspberrypi/</guid>
 			<description>
 				
 				If you install Raspian on a RaspberryPi Zero W one essential step is to setup Wifi. You save a configuration file called...
@@ -25,10 +25,10 @@
 		</item>
 		<item>
 			<title>The easiest way to install NodeJS on a Raspberry Pi</title>
-			<link>http://example.org/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</link>
+			<link>http://rwbr.github.io/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</link>
 			<pubDate>Tue, 25 Aug 2020 19:29:21 +0200</pubDate>
 			
-			<guid>http://example.org/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</guid>
+			<guid>http://rwbr.github.io/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</guid>
 			<description>
 				
 				The installation of NodeJs on a RaspberryPi can be accomplished on various ways. This article shows the easiest way to d...
@@ -37,10 +37,10 @@
 		</item>
 		<item>
 			<title>&#39;fatal: refusing to merge unrelated histories&#39; in git</title>
-			<link>http://example.org/post/fatal-refusing-to-merge-unrelated-histories-in-git/</link>
+			<link>http://rwbr.github.io/post/fatal-refusing-to-merge-unrelated-histories-in-git/</link>
 			<pubDate>Mon, 24 Aug 2020 14:47:25 +0200</pubDate>
 			
-			<guid>http://example.org/post/fatal-refusing-to-merge-unrelated-histories-in-git/</guid>
+			<guid>http://rwbr.github.io/post/fatal-refusing-to-merge-unrelated-histories-in-git/</guid>
 			<description>
 				
 				This nasty error in git happens, when you try to merge wo repositories, that are not aware of the existence of the other...
@@ -49,10 +49,10 @@
 		</item>
 		<item>
 			<title>How to remove all Docker images at once</title>
-			<link>http://example.org/post/how-to-remove-all-docker-images-at-once/</link>
+			<link>http://rwbr.github.io/post/how-to-remove-all-docker-images-at-once/</link>
 			<pubDate>Tue, 21 May 2019 21:29:22 +0200</pubDate>
 			
-			<guid>http://example.org/post/how-to-remove-all-docker-images-at-once/</guid>
+			<guid>http://rwbr.github.io/post/how-to-remove-all-docker-images-at-once/</guid>
 			<description>
 				
 				Somtimes it is necessary to remove all Docker images or containers on your machine. Here is how it goes. It’s pret...
