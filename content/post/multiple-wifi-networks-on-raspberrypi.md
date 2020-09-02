@@ -1,10 +1,10 @@
 ---
-title: "How to configure multiple wifi networks on a RaspberryPi Zero W"
+title: "How to configure multiple wifi networks on a Raspberrry Pi Zero W"
 date: 2020-08-26T18:36:05+02:00
 tags: [raspberrypi]
 ---
 
-If you install [Raspian](https://www.raspberrypi.org/downloads/raspberry-pi-os/) on a RaspberryPi Zero W one essential step is to setup Wifi. You save a configuration file called **wpa_supplicant.conf** on the ```boot```-Partition. But how do you configure multiple networks in one step?
+If you install [Raspian](https://www.raspberrypi.org/downloads/raspberry-pi-os/) on a Raspberrry Pi Zero W one essential step is to setup Wifi. You save a configuration file called **wpa_supplicant.conf** on the ```boot```-Partition. But how do you configure multiple networks in one step?
 
 <!--more-->
 
