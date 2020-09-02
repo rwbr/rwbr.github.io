@@ -7,10 +7,22 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>Copyright © 2020 Ralf Weinbrecher</copyright>
-		<lastBuildDate>Fri, 28 Aug 2020 14:03:06 +0200</lastBuildDate>
+		<lastBuildDate>Wed, 02 Sep 2020 08:28:33 +0200</lastBuildDate>
 		
 		<atom:link href="https://rwbr.github.io/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>Automatic Wifi hotspot on a Raspberry Pi Zero W to comfortably setup the Wifi settings</title>
+			<link>https://rwbr.github.io/post/automatic-wifi-hotspot-on-raspberry-pi-zero-w-to-setup-wifi/</link>
+			<pubDate>Wed, 02 Sep 2020 08:28:33 +0200</pubDate>
+			
+			<guid>https://rwbr.github.io/post/automatic-wifi-hotspot-on-raspberry-pi-zero-w-to-setup-wifi/</guid>
+			<description>
+				
+				With the raspberryPi Zero W the configuration of the wifi settings normally works like this: You mount the SD card with ...
+				
+			</description>
+		</item>
 		<item>
 			<title>An even better way to install NodeJS on a Raspberrry Pi Zero W</title>
 			<link>https://rwbr.github.io/post/an-even-better-way-to-install-nodejs-on-a-raspberrypi-zero/</link>

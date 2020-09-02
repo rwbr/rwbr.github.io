@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	
+	<meta name="generator" content="Hugo 0.74.2" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="git,flutter,programming,ios"><meta name="description" content=""><meta property="og:title" content="Automatic Wifi hotspot on a Raspberry Pi Zero W to comfortably setup the Wifi settings" />
+<meta property="og:description" content="With the raspberryPi Zero W the configuration of the wifi settings normally works like this: You mount the SD card with your PC. A file called wpa_supplicant.conf is created on the boot partition, which contains the necessary parameters. But isn&rsquo;t there a better way?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://rwbr.github.io/post/automatic-wifi-hotspot-on-raspberry-pi-zero-w-to-setup-wifi/" />
+<meta property="article:published_time" content="2020-09-02T08:28:33+02:00" />
+<meta property="article:modified_time" content="2020-09-02T08:28:33+02:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Automatic Wifi hotspot on a Raspberry Pi Zero W to comfortably setup the Wifi settings"/>
+<meta name="twitter:description" content="With the raspberryPi Zero W the configuration of the wifi settings normally works like this: You mount the SD card with your PC. A file called wpa_supplicant.conf is created on the boot partition, which contains the necessary parameters. But isn&rsquo;t there a better way?"/>
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://rwbr.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://rwbr.github.io/css/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://rwbr.github.io/css/all.css" />
+	<link rel="stylesheet" href="https://rwbr.github.io/css/katex.min.css" crossorigin="anonymous">
+	<script defer src="https://rwbr.github.io/js/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+	<script defer src="https://rwbr.github.io/js/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><title>Automatic Wifi hotspot on a Raspberry Pi Zero W to comfortably setup the Wifi settings | What I learned today</title></head>
+<body><header>
+	
+	<div id="avatar">
+		<a href="https://rwbr.github.io/">
+			<img src="/img/rw-logo.png" alt="What I learned today">
+		</a>
+	</div>
+	
+	<div id="titletext"><h2 id="title"><a href="https://rwbr.github.io/">What I learned today</a></h2></div>
+	<div id="title-description"><p id="subtitle">Personal blog about programming and all that stuff</p><div id=social>
+			<nav>
+				<ul><li><a href="https://github.com/rwbr"><i title="Github" class="icons fab fa-github"></i></a></li><li><a href="/index.xml"><i title="RSS" class="icons fas fa-rss"></i></a></li></ul>
+			</nav>
+		</div>
+	</div>
+	
+	<div id="mainmenu">
+		<nav>
+			<ul>
+				
+				<li><a href="/">Home</a></li>
+				
+				<li><a href="/post">All Posts</a></li>
+				
+				<li><a href="/about">About</a></li>
+				
+				<li><a href="/tags">Tags</a></li>
+				
+				<li><a href="/categories">Categories</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	
+</header>
+<main><div class="post">
+	
+	<div class="author">
+	
+	</div>
+	<div class="post-header">
+	
+		<div class="meta">
+			
+			<div class="date">
+				<span class="day">02</span>
+				<span class="rest">Sep 2020</span>
+			</div>
+			
+		</div>
+		
+		<div class="matter">
+			<h1 class="title">Automatic Wifi hotspot on a Raspberry Pi Zero W to comfortably setup the Wifi settings</h1>
+		</div>
+	</div>
+	<div class="markdown">
+		<p>With the raspberryPi Zero W the configuration of the wifi settings normally works like this: You mount the SD card with your PC. A file called <strong>wpa_supplicant.conf</strong> is created on the boot partition, which contains the necessary parameters. But isn&rsquo;t there a better way?</p>
+<p>The normal way to set up a headless Raspberrry Pi Zero W is copying a file call <strong>wpa_supplicant.conf</strong> onto the boot partition of the SD card.</p>
+<h2 id="the-raspiwifi-project">The RaspiWiFi project</h2>
+<p>I found a <a href="https://github.com/jasbur/RaspiWiFi">project on GitHub</a> called <strong>RasipWiFi</strong>, that makes setting up the WiFi setting right on the device really easy.</p>
+<p>From the projects README:</p>
+<blockquote>
+<p>RaspiWiFi is a program to headlessly configure a Raspberry Pi&rsquo;s WiFi
+connection using using any other WiFi-enabled device (much like the way
+a Chromecast or similar device can be configured).</p>
+</blockquote>
+<h2 id="my-fork-of-the-raspiwifi-project">My fork of the RaspiWiFI project</h2>
+<p>I decided to fork that project. My fork of it is available on <a href="https://github.com/rwbr/RaspiWiFi">my GitHub pages</a>. There were no current changes on the original project for the last two years. However the code still works. My fork had to development goals:</p>
+<ol>
+<li>Update the web UI to a more modern look</li>
+<li>Make the project to behave as a captive portal</li>
+</ol>
+<h3 id="1-updated-web-ui">1. Updated web UI</h3>
+<p>I updated the web UI to use the Bootstrap library, inspired by the work of the GitHub user <a href="https://github.com/swissbyte/RaspiWiFi">swissbyte</a>. I integrated some extra configuration options to set the elements of the footer or the page title with the contents of a configuration file.</p>
+<h3 id="2-captive-portal-functionality">2. Captive Portal functionality</h3>
+<p>In my fork of the project I added a simple configuration setting for DNSMASQ, that does the magic. Now, after your client (PC, smart phone, tablet &hellip;) successfully connected to the hotspot, it automatically loads the setup page.</p>
+<h2 id="how-to-run-the-project">How to run the project</h2>
+<p>I will show you here, how you set up the project on your Raspberry Pi Zero W step-by-step.</p>
+<h3 id="prepare-the-sd-card">Prepare the SD card</h3>
+<p>Downlad the latest release of Raspberry Pi OS Lite from the <a href="https://www.raspberrypi.org/downloads/raspberry-pi-os/">web site</a>. Next mount the SD card with your PC.</p>
+<p><img src="/img/mounted-sd-card.png" alt="Mounted SD card"></p>
+<h3 id="burn-the-image-on-the-sd-card">Burn the image on the SD card</h3>
+<p>I recommend using a tool called <a href="https://www.balena.io/etcher/">Balena Etcher</a> to write the image to the SD card.</p>
+<p><img src="/img/balena-etcher.png" alt="Balena Etcher"></p>
+<p>When you start this tool, you first have to select the Raspberry Pi OS image.</p>
+<p><img src="/img/firmware-image.png" alt="Select the firmware image"></p>
+<p><strong>Take care to select the SD card as the target</strong>. Then start the write process. The tool will ask you to enter your account password to start the write operation.</p>
+<p><img src="/img/etcher-flashing.png" alt="Flashing the image"></p>
+<h2 id="enable-ssh-on-boot">Enable SSH on boot</h2>
+<p>You have to unmount and re-mount the SD card, to proceed with the next step. To automatically enable SSH connections we need to create an empty file called <strong>ssh</strong> on the boot partition of the SD card.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">touch /Volumes/boot/ssh
+</code></pre></div><h2 id="initial-wifi-setup">Initial WiFi setup</h2>
+<p>This step has to be done just once. Later you will be able to copy the whhole SG card (image) to your devices in order to set them up properly.</p>
+<p>But for the purpose of installation we need an inital WiFi connection to the device, becaus there is no alternative way to install the software.</p>
+<p>Create a file on the boot partition of the SD card named <code>wpa_supplicant.conf</code> like this: (the <code>country</code> parameter must be set according to your region):</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">country=DE 
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev 
+update_config=1 
+network={
+     ssid=&#34;WLAN SSID&#34;
+     scan_ssid=1
+     psk=&#34;WLAN PASSWORD&#34;
+     key_mgmt=WPA-PSK
+}
+</code></pre></div><p>Replace <code>WLAN SSID</code> with the SSID of the network you wish to connect to and <code>WLAN PASSWORD</code> with the appropriate WiFi password.</p>
+<p>Unmount the SD card and insert it into the card reader of your Raspberry Pi Zero W. Then connect the device to the power supply to let it boot up.</p>
+<h2 id="ssh-into-the-device">SSH into the device</h2>
+<p>You need to find out the IP address of the Raspberry pi. Use one of the methods <a href="https://www.raspberrypi.org/documentation/remote-access/ip-address.md">described in the documention</a>. then use this IP address to esablish a SSH connection.</p>
+<h2 id="configure-your-raspberry-pi">Configure your Raspberry Pi</h2>
+<p>Start the configuration tool on your device:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo raspi-config
+</code></pre></div><p>You need to setup:</p>
+<ul>
+<li>user password</li>
+<li>hostname</li>
+<li>optional: time zone</li>
+<li>expand file system</li>
+</ul>
+<p><img src="/img/raspi-config.png" alt="raspi-config"></p>
+<h3 id="user-password">User password</h3>
+<p>Select the menu point to change the user password and set a new password for the user <code>pi</code>.</p>
+<h3 id="hostname">Hostname</h3>
+<p>Select the menu to edit the hostname. Enter a new hostname for your Raspberry Pi.</p>
+<p><img src="/img/new-hostname.png" alt="New hostname"></p>
+<h3 id="change-time-zone">Change time zone</h3>
+<p>Depending on your location you might wish to set another time zone. Default is Europe/London.</p>
+<p><img src="/img/time-zone.png" alt="Time Zone"></p>
+<h3 id="finally-expand-file-system">Finally: Expand file system</h3>
+<p>This is necessary, because the firmware image, that you wrote on the SD card, is smaller than the absolute size of the card. In my example I use a 16GB card, while the image is just 1.56GB. This step expands the image on the card so that you can use the full size of it.</p>
+<p><img src="/img/expand-filesystem.png" alt="Expand file system"></p>
+<h3 id="reboot">Reboot</h3>
+<p>To finish the setup the Raspberry Pi needs to reboot.</p>
+<p><img src="/img/finish-reboot.png" alt="Reboot the device"></p>
+<h2 id="install-the-prerequisites">Install the prerequisites</h2>
+<p>The next step ist to install all the prerequisites of the RaspiWiFi project.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo apt update; sudo apt upgrade -y; sudo apt install -y git build-essential
+</code></pre></div><p>Then we are able to clone the project:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git clone https://github.com/rwbr/RaspiWiFi.git
+<span style="color:#007020">cd</span> RaspiWiFi
+</code></pre></div><h2 id="setup-raspiwifi">Setup RaspiWiFi</h2>
+<p>Now you are ready to install the RaspiWifi project on the device.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo python3 initial_setup.py
+</code></pre></div><p>You get guided through the setup. Basically you can press <code>ENTER</code> on each of the questions. Leaving the options set to their default values is fine.</p>
+<p>When the installer finishes, it ask you to save your changes to the device. Do so (answer &ldquo;y&rdquo;).</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">Are you ready to commit changes to the system? <span style="color:#333">[</span>y/N<span style="color:#333">]</span>: 
+</code></pre></div><p>After som minutes:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#888">#####################################</span>
+<span style="color:#888">##### RaspiWiFi Setup Complete  #####</span>
+<span style="color:#888">#####################################</span>
+
+
+Initial setup is complete. A reboot is required to start in WiFi configuration mode...
+Would you like to <span style="color:#080;font-weight:bold">do</span> that now? <span style="color:#333">[</span>y/N<span style="color:#333">]</span>: 
+</code></pre></div><p>Reboot, then take your smart phone or tablet to scan for WiFi networks nearby. There should be a network named <strong>&ldquo;RaspiWiFi Setup v1.1&rdquo;</strong>.</p>
+<p><img src="/img/select-hotspot.png" alt="Select the RaspiWiFi hotspot"></p>
+<p>Select it. If you selected to encrypted the network you need to enter your password. After your client is connected to the RaspiWifi hotspot, a web page automatically pops up.</p>
+<p><img src="/img/capitve-portal-page.png" alt="Captive portal"></p>
+<p>There you can enter the password for the selected network. When you finish the configuration your Raspberry Pi reboots again. After the reboot it is configured to connect to this network. You can login over SSH again.</p>
+	</div>
+	
+	
+	
+	
+	
+		
+	
+		
+	
+		
+		
+	</div></div>
+
+  </main>
+<footer>
+	 Copyright © 2020 Ralf Weinbrecher 
+	
+	
+	
+</footer>
+
+
+</body>
+</html>
