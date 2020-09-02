@@ -190,6 +190,6 @@ Select it. If you selected to encrypted the network you need to enter your passw
 
 ![Captive portal](/img/capitve-portal-page.png)
 
-(If this page doesn't open automatically, navigate to [](http://10.0.0.1)).
+If this page doesn't open automatically, navigate to [http://10.0.0.1](http://10.0.0.1).
 
 There you can enter the password for the selected network. When you finish the configuration your Raspberry Pi reboots again. After the reboot it is configured to connect to this network. You can login over SSH again. 
