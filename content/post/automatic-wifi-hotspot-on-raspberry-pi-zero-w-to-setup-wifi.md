@@ -1,7 +1,6 @@
 ---
 title: "Automatic Wifi hotspot on a Raspberry Pi Zero W to comfortably setup the Wifi settings"
 date: 2020-09-02T08:28:33+02:00
-draft: true
 ---
 
 With the raspberryPi Zero W the configuration of the wifi settings normally works like this: You mount the SD card with your PC. A file called **wpa_supplicant.conf** is created on the boot partition, which contains the necessary parameters. But isn't there a better way? 
