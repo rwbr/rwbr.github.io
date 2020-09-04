@@ -7,10 +7,24 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>Copyright © 2020 Ralf Weinbrecher</copyright>
-		<lastBuildDate>Wed, 02 Sep 2020 08:28:33 +0200</lastBuildDate>
+		<lastBuildDate>Fri, 04 Sep 2020 22:27:47 +0200</lastBuildDate>
 		
 		<atom:link href="https://rwbr.github.io/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>Note to self: How to use virtuelenv</title>
+			<link>https://rwbr.github.io/post/note-to-self-virtualenv/</link>
+			<pubDate>Fri, 04 Sep 2020 22:27:47 +0200</pubDate>
+			
+			<guid>https://rwbr.github.io/post/note-to-self-virtualenv/</guid>
+			<description>
+				
+				 virtualenv is a tool to create isolated Python environments.
+ What is the basic usage of this command?
+Installation pip...
+				
+			</description>
+		</item>
 		<item>
 			<title>Automatic Wifi hotspot on a Raspberry Pi Zero W to comfortably setup the Wifi settings</title>
 			<link>https://rwbr.github.io/post/automatic-wifi-hotspot-on-raspberry-pi-zero-w-to-setup-wifi/</link>
