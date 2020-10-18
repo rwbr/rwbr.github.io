@@ -4,16 +4,36 @@
   
   <url>
     <loc>https://rwbr.github.io/</loc>
-    <lastmod>2020-09-04T22:27:47+02:00</lastmod>
+    <lastmod>2020-10-18T14:57:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/post/note-to-self-virtualenv/</loc>
-    <lastmod>2020-09-04T22:27:47+02:00</lastmod>
+    <loc>https://rwbr.github.io/post/find-and-kill-an-application-blocking-a-port/</loc>
+    <lastmod>2020-10-18T14:57:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rwbr.github.io/tags/network/</loc>
+    <lastmod>2020-10-18T14:57:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rwbr.github.io/tags/os/</loc>
+    <lastmod>2020-10-18T14:57:46+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://rwbr.github.io/post/</loc>
+    <lastmod>2020-10-18T14:57:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rwbr.github.io/tags/</loc>
+    <lastmod>2020-10-18T14:57:46+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rwbr.github.io/post/note-to-self-virtualenv/</loc>
     <lastmod>2020-09-04T22:27:47+02:00</lastmod>
   </url>
   
@@ -34,11 +54,6 @@
   
   <url>
     <loc>https://rwbr.github.io/tags/raspberrypi/</loc>
-    <lastmod>2020-08-28T14:03:06+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rwbr.github.io/tags/</loc>
     <lastmod>2020-08-28T14:03:06+02:00</lastmod>
   </url>
   
