@@ -2,21 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>What I learned today</title>
-		<link>https://rwbr.github.io/</link>
-		<description>Recent content on rwbr.github.io</description>
+		<link>http://ralfweinbrecher.de/</link>
+		<description>Recent content on ralfweinbrecher.de</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>Copyright © 2020 Ralf Weinbrecher</copyright>
-		<lastBuildDate>Sun, 18 Oct 2020 14:57:46 +0200</lastBuildDate>
+		<lastBuildDate>Sun, 28 Mar 2021 11:45:53 +0200</lastBuildDate>
 		
-		<atom:link href="https://rwbr.github.io/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://ralfweinbrecher.de/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
+			<title>How to Set Default Window Size</title>
+			<link>http://ralfweinbrecher.de/post/how-to-set-default-window-size/</link>
+			<pubDate>Sun, 28 Mar 2021 11:45:53 +0200</pubDate>
+			
+			<guid>http://ralfweinbrecher.de/post/how-to-set-default-window-size/</guid>
+			<description>
+				
+				Flutter for Desktop has been released as beta yet. Now you can develop desktop applications with your knowledge stack.
+H...
+				
+			</description>
+		</item>
+		<item>
 			<title>Find and Kill an Application Blocking a Port</title>
-			<link>https://rwbr.github.io/post/find-and-kill-an-application-blocking-a-port/</link>
+			<link>http://ralfweinbrecher.de/post/find-and-kill-an-application-blocking-a-port/</link>
 			<pubDate>Sun, 18 Oct 2020 14:57:46 +0200</pubDate>
 			
-			<guid>https://rwbr.github.io/post/find-and-kill-an-application-blocking-a-port/</guid>
+			<guid>http://ralfweinbrecher.de/post/find-and-kill-an-application-blocking-a-port/</guid>
 			<description>
 				
 				Sometimes when you develop a web application you can run into the problem, that an application is blocking a specific po...
@@ -25,10 +38,10 @@
 		</item>
 		<item>
 			<title>Note to self: How to use virtuelenv</title>
-			<link>https://rwbr.github.io/post/note-to-self-virtualenv/</link>
+			<link>http://ralfweinbrecher.de/post/note-to-self-virtualenv/</link>
 			<pubDate>Fri, 04 Sep 2020 22:27:47 +0200</pubDate>
 			
-			<guid>https://rwbr.github.io/post/note-to-self-virtualenv/</guid>
+			<guid>http://ralfweinbrecher.de/post/note-to-self-virtualenv/</guid>
 			<description>
 				
 				 virtualenv is a tool to create isolated Python environments.
@@ -39,10 +52,10 @@ Installation pip...
 		</item>
 		<item>
 			<title>Automatic Wifi hotspot on a Raspberry Pi Zero W to comfortably setup the Wifi settings</title>
-			<link>https://rwbr.github.io/post/automatic-wifi-hotspot-on-raspberry-pi-zero-w-to-setup-wifi/</link>
+			<link>http://ralfweinbrecher.de/post/automatic-wifi-hotspot-on-raspberry-pi-zero-w-to-setup-wifi/</link>
 			<pubDate>Wed, 02 Sep 2020 08:28:33 +0200</pubDate>
 			
-			<guid>https://rwbr.github.io/post/automatic-wifi-hotspot-on-raspberry-pi-zero-w-to-setup-wifi/</guid>
+			<guid>http://ralfweinbrecher.de/post/automatic-wifi-hotspot-on-raspberry-pi-zero-w-to-setup-wifi/</guid>
 			<description>
 				
 				With the raspberryPi Zero W the configuration of the wifi settings normally works like this: You mount the SD card with ...
@@ -51,10 +64,10 @@ Installation pip...
 		</item>
 		<item>
 			<title>An even better way to install NodeJS on a Raspberrry Pi Zero W</title>
-			<link>https://rwbr.github.io/post/an-even-better-way-to-install-nodejs-on-a-raspberrypi-zero/</link>
+			<link>http://ralfweinbrecher.de/post/an-even-better-way-to-install-nodejs-on-a-raspberrypi-zero/</link>
 			<pubDate>Fri, 28 Aug 2020 14:03:06 +0200</pubDate>
 			
-			<guid>https://rwbr.github.io/post/an-even-better-way-to-install-nodejs-on-a-raspberrypi-zero/</guid>
+			<guid>http://ralfweinbrecher.de/post/an-even-better-way-to-install-nodejs-on-a-raspberrypi-zero/</guid>
 			<description>
 				
 				Following the guide in my last post you can safely install NodeJS on a Raspberrry Pi. If you try this on a Raspberrry Pi...
@@ -63,10 +76,10 @@ Installation pip...
 		</item>
 		<item>
 			<title>How to configure multiple wifi networks on a Raspberrry Pi Zero W</title>
-			<link>https://rwbr.github.io/post/multiple-wifi-networks-on-raspberrypi/</link>
+			<link>http://ralfweinbrecher.de/post/multiple-wifi-networks-on-raspberrypi/</link>
 			<pubDate>Wed, 26 Aug 2020 18:36:05 +0200</pubDate>
 			
-			<guid>https://rwbr.github.io/post/multiple-wifi-networks-on-raspberrypi/</guid>
+			<guid>http://ralfweinbrecher.de/post/multiple-wifi-networks-on-raspberrypi/</guid>
 			<description>
 				
 				If you install Raspian on a Raspberrry Pi Zero W one essential step is to setup Wifi. You save a configuration file call...
@@ -75,10 +88,10 @@ Installation pip...
 		</item>
 		<item>
 			<title>The easiest way to install NodeJS on a Raspberry Pi</title>
-			<link>https://rwbr.github.io/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</link>
+			<link>http://ralfweinbrecher.de/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</link>
 			<pubDate>Tue, 25 Aug 2020 19:29:21 +0200</pubDate>
 			
-			<guid>https://rwbr.github.io/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</guid>
+			<guid>http://ralfweinbrecher.de/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</guid>
 			<description>
 				
 				The installation of NodeJs on a Raspberrry Pi can be accomplished on various ways. This article shows the easiest way to...
@@ -87,10 +100,10 @@ Installation pip...
 		</item>
 		<item>
 			<title>&#39;fatal: refusing to merge unrelated histories&#39; in git</title>
-			<link>https://rwbr.github.io/post/fatal-refusing-to-merge-unrelated-histories-in-git/</link>
+			<link>http://ralfweinbrecher.de/post/fatal-refusing-to-merge-unrelated-histories-in-git/</link>
 			<pubDate>Mon, 24 Aug 2020 14:47:25 +0200</pubDate>
 			
-			<guid>https://rwbr.github.io/post/fatal-refusing-to-merge-unrelated-histories-in-git/</guid>
+			<guid>http://ralfweinbrecher.de/post/fatal-refusing-to-merge-unrelated-histories-in-git/</guid>
 			<description>
 				
 				This nasty error in git happens, when you try to merge wo repositories, that are not aware of the existence of the other...
@@ -99,10 +112,10 @@ Installation pip...
 		</item>
 		<item>
 			<title></title>
-			<link>https://rwbr.github.io/archives/</link>
+			<link>http://ralfweinbrecher.de/archives/</link>
 			<pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
 			
-			<guid>https://rwbr.github.io/archives/</guid>
+			<guid>http://ralfweinbrecher.de/archives/</guid>
 			<description>
 				
 				
@@ -111,10 +124,10 @@ Installation pip...
 		</item>
 		<item>
 			<title>How to remove all Docker images at once</title>
-			<link>https://rwbr.github.io/post/how-to-remove-all-docker-images-at-once/</link>
+			<link>http://ralfweinbrecher.de/post/how-to-remove-all-docker-images-at-once/</link>
 			<pubDate>Tue, 21 May 2019 21:29:22 +0200</pubDate>
 			
-			<guid>https://rwbr.github.io/post/how-to-remove-all-docker-images-at-once/</guid>
+			<guid>http://ralfweinbrecher.de/post/how-to-remove-all-docker-images-at-once/</guid>
 			<description>
 				
 				Somtimes it is necessary to remove all Docker images or containers on your machine. Here is how it goes. It’s pret...
@@ -123,10 +136,10 @@ Installation pip...
 		</item>
 		<item>
 			<title>About</title>
-			<link>https://rwbr.github.io/about/</link>
+			<link>http://ralfweinbrecher.de/about/</link>
 			<pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
 			
-			<guid>https://rwbr.github.io/about/</guid>
+			<guid>http://ralfweinbrecher.de/about/</guid>
 			<description>
 				
 				Hugo, the world’s fastest framework for building websites

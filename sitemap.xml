@@ -3,110 +3,125 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rwbr.github.io/</loc>
+    <loc>http://ralfweinbrecher.de/</loc>
+    <lastmod>2021-03-28T11:45:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ralfweinbrecher.de/tags/desktop/</loc>
+    <lastmod>2021-03-28T11:45:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ralfweinbrecher.de/tags/flutter/</loc>
+    <lastmod>2021-03-28T11:45:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ralfweinbrecher.de/post/how-to-set-default-window-size/</loc>
+    <lastmod>2021-03-28T11:45:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ralfweinbrecher.de/post/</loc>
+    <lastmod>2021-03-28T11:45:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ralfweinbrecher.de/tags/</loc>
+    <lastmod>2021-03-28T11:45:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ralfweinbrecher.de/post/find-and-kill-an-application-blocking-a-port/</loc>
     <lastmod>2020-10-18T14:57:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/post/find-and-kill-an-application-blocking-a-port/</loc>
+    <loc>http://ralfweinbrecher.de/tags/network/</loc>
     <lastmod>2020-10-18T14:57:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/tags/network/</loc>
+    <loc>http://ralfweinbrecher.de/tags/os/</loc>
     <lastmod>2020-10-18T14:57:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/tags/os/</loc>
-    <lastmod>2020-10-18T14:57:46+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rwbr.github.io/post/</loc>
-    <lastmod>2020-10-18T14:57:46+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rwbr.github.io/tags/</loc>
-    <lastmod>2020-10-18T14:57:46+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://rwbr.github.io/post/note-to-self-virtualenv/</loc>
+    <loc>http://ralfweinbrecher.de/post/note-to-self-virtualenv/</loc>
     <lastmod>2020-09-04T22:27:47+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/post/automatic-wifi-hotspot-on-raspberry-pi-zero-w-to-setup-wifi/</loc>
+    <loc>http://ralfweinbrecher.de/post/automatic-wifi-hotspot-on-raspberry-pi-zero-w-to-setup-wifi/</loc>
     <lastmod>2020-09-02T08:28:33+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/post/an-even-better-way-to-install-nodejs-on-a-raspberrypi-zero/</loc>
+    <loc>http://ralfweinbrecher.de/post/an-even-better-way-to-install-nodejs-on-a-raspberrypi-zero/</loc>
     <lastmod>2020-08-28T14:03:06+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/tags/nodejs/</loc>
+    <loc>http://ralfweinbrecher.de/tags/nodejs/</loc>
     <lastmod>2020-08-28T14:03:06+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/tags/raspberrypi/</loc>
+    <loc>http://ralfweinbrecher.de/tags/raspberrypi/</loc>
     <lastmod>2020-08-28T14:03:06+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/post/multiple-wifi-networks-on-raspberrypi/</loc>
+    <loc>http://ralfweinbrecher.de/post/multiple-wifi-networks-on-raspberrypi/</loc>
     <lastmod>2020-08-26T18:36:05+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</loc>
+    <loc>http://ralfweinbrecher.de/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</loc>
     <lastmod>2020-08-25T19:29:21+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/post/fatal-refusing-to-merge-unrelated-histories-in-git/</loc>
+    <loc>http://ralfweinbrecher.de/post/fatal-refusing-to-merge-unrelated-histories-in-git/</loc>
     <lastmod>2020-08-24T14:47:25+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/tags/git/</loc>
+    <loc>http://ralfweinbrecher.de/tags/git/</loc>
     <lastmod>2020-08-24T14:47:25+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/archives/</loc>
+    <loc>http://ralfweinbrecher.de/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/tags/docker/</loc>
+    <loc>http://ralfweinbrecher.de/tags/docker/</loc>
     <lastmod>2019-05-21T21:29:22+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/post/how-to-remove-all-docker-images-at-once/</loc>
+    <loc>http://ralfweinbrecher.de/post/how-to-remove-all-docker-images-at-once/</loc>
     <lastmod>2019-05-21T21:29:22+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/about/</loc>
+    <loc>http://ralfweinbrecher.de/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/categories/</loc>
+    <loc>http://ralfweinbrecher.de/categories/</loc>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/tags/index/</loc>
+    <loc>http://ralfweinbrecher.de/tags/index/</loc>
   </url>
   
   <url>
-    <loc>https://rwbr.github.io/series/</loc>
+    <loc>http://ralfweinbrecher.de/series/</loc>
   </url>
   
 </urlset>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>raspberrypi on What I learned today</title>
-		<link>https://rwbr.github.io/tags/raspberrypi/</link>
-		<description>Recent content in raspberrypi on rwbr.github.io</description>
+		<link>http://ralfweinbrecher.de/tags/raspberrypi/</link>
+		<description>Recent content in raspberrypi on ralfweinbrecher.de</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>Copyright © 2020 Ralf Weinbrecher</copyright>
 		<lastBuildDate>Fri, 28 Aug 2020 14:03:06 +0200</lastBuildDate>
 		
-		<atom:link href="https://rwbr.github.io/tags/raspberrypi/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://ralfweinbrecher.de/tags/raspberrypi/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>An even better way to install NodeJS on a Raspberrry Pi Zero W</title>
-			<link>https://rwbr.github.io/post/an-even-better-way-to-install-nodejs-on-a-raspberrypi-zero/</link>
+			<link>http://ralfweinbrecher.de/post/an-even-better-way-to-install-nodejs-on-a-raspberrypi-zero/</link>
 			<pubDate>Fri, 28 Aug 2020 14:03:06 +0200</pubDate>
 			
-			<guid>https://rwbr.github.io/post/an-even-better-way-to-install-nodejs-on-a-raspberrypi-zero/</guid>
+			<guid>http://ralfweinbrecher.de/post/an-even-better-way-to-install-nodejs-on-a-raspberrypi-zero/</guid>
 			<description>
 				
 				Following the guide in my last post you can safely install NodeJS on a Raspberrry Pi. If you try this on a Raspberrry Pi...
@@ -25,10 +25,10 @@
 		</item>
 		<item>
 			<title>How to configure multiple wifi networks on a Raspberrry Pi Zero W</title>
-			<link>https://rwbr.github.io/post/multiple-wifi-networks-on-raspberrypi/</link>
+			<link>http://ralfweinbrecher.de/post/multiple-wifi-networks-on-raspberrypi/</link>
 			<pubDate>Wed, 26 Aug 2020 18:36:05 +0200</pubDate>
 			
-			<guid>https://rwbr.github.io/post/multiple-wifi-networks-on-raspberrypi/</guid>
+			<guid>http://ralfweinbrecher.de/post/multiple-wifi-networks-on-raspberrypi/</guid>
 			<description>
 				
 				If you install Raspian on a Raspberrry Pi Zero W one essential step is to setup Wifi. You save a configuration file call...
@@ -37,10 +37,10 @@
 		</item>
 		<item>
 			<title>The easiest way to install NodeJS on a Raspberry Pi</title>
-			<link>https://rwbr.github.io/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</link>
+			<link>http://ralfweinbrecher.de/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</link>
 			<pubDate>Tue, 25 Aug 2020 19:29:21 +0200</pubDate>
 			
-			<guid>https://rwbr.github.io/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</guid>
+			<guid>http://ralfweinbrecher.de/post/the-easiest-way-to-install-node-on-a-raaspberrypi/</guid>
 			<description>
 				
 				The installation of NodeJs on a Raspberrry Pi can be accomplished on various ways. This article shows the easiest way to...

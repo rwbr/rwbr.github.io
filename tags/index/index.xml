@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>index on What I learned today</title>
-		<link>https://rwbr.github.io/tags/index/</link>
-		<description>Recent content in index on rwbr.github.io</description>
+		<link>http://ralfweinbrecher.de/tags/index/</link>
+		<description>Recent content in index on ralfweinbrecher.de</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>Copyright © 2020 Ralf Weinbrecher</copyright>
 		
-		<atom:link href="https://rwbr.github.io/tags/index/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://ralfweinbrecher.de/tags/index/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Posts</title>
-			<link>https://rwbr.github.io/post/</link>
-			<pubDate>Sun, 18 Oct 2020 14:57:46 +0200</pubDate>
+			<link>http://ralfweinbrecher.de/post/</link>
+			<pubDate>Sun, 28 Mar 2021 11:45:53 +0200</pubDate>
 			
-			<guid>https://rwbr.github.io/post/</guid>
+			<guid>http://ralfweinbrecher.de/post/</guid>
 			<description>
 				
 				

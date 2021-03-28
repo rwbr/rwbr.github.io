@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>docker on What I learned today</title>
-		<link>https://rwbr.github.io/tags/docker/</link>
-		<description>Recent content in docker on rwbr.github.io</description>
+		<link>http://ralfweinbrecher.de/tags/docker/</link>
+		<description>Recent content in docker on ralfweinbrecher.de</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>Copyright © 2020 Ralf Weinbrecher</copyright>
 		<lastBuildDate>Tue, 21 May 2019 21:29:22 +0200</lastBuildDate>
 		
-		<atom:link href="https://rwbr.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://ralfweinbrecher.de/tags/docker/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>How to remove all Docker images at once</title>
-			<link>https://rwbr.github.io/post/how-to-remove-all-docker-images-at-once/</link>
+			<link>http://ralfweinbrecher.de/post/how-to-remove-all-docker-images-at-once/</link>
 			<pubDate>Tue, 21 May 2019 21:29:22 +0200</pubDate>
 			
-			<guid>https://rwbr.github.io/post/how-to-remove-all-docker-images-at-once/</guid>
+			<guid>http://ralfweinbrecher.de/post/how-to-remove-all-docker-images-at-once/</guid>
 			<description>
 				
 				Somtimes it is necessary to remove all Docker images or containers on your machine. Here is how it goes. It’s pret...

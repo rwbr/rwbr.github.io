@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>flutter on What I learned today</title>
+		<link>http://ralfweinbrecher.de/tags/flutter/</link>
+		<description>Recent content in flutter on ralfweinbrecher.de</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>Copyright © 2020 Ralf Weinbrecher</copyright>
+		<lastBuildDate>Sun, 28 Mar 2021 11:45:53 +0200</lastBuildDate>
+		
+		<atom:link href="http://ralfweinbrecher.de/tags/flutter/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>How to Set Default Window Size</title>
+			<link>http://ralfweinbrecher.de/post/how-to-set-default-window-size/</link>
+			<pubDate>Sun, 28 Mar 2021 11:45:53 +0200</pubDate>
+			
+			<guid>http://ralfweinbrecher.de/post/how-to-set-default-window-size/</guid>
+			<description>
+				
+				Flutter for Desktop has been released as beta yet. Now you can develop desktop applications with your knowledge stack.
+H...
+				
+			</description>
+		</item>
+		
+	</channel>
+</rss>
